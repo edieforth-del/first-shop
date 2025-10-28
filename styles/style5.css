@@ -1,0 +1,107 @@
+* {
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: #bdb5b2;
+}
+.mainBody {
+    background-color: #faf5f1;
+    margin: 50px 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 60px;
+    align-items: center;
+}
+.leftNav {
+
+}
+.leftNav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    margin: 0 20px;
+}
+.rightNav ul {
+    display: flex;
+}
+main {
+    display: flex;
+}
+.mainLeft {
+    width: 50%;
+    height: 90%; 
+}
+.viewImage img {
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+}
+.viewImage {
+}
+
+.selectView {
+    display: flex;
+    justify-content: center;
+}
+.selectView ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.selectView ul img {
+    width: 60%;
+}
+.mainRight {
+    width: 50%;
+}
+.size ul {
+    display: flex;  
+}
+.price p {
+    color: red;
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+.details {
+    height: 90%;
+    display: flex;
+    align-items:center;
+    padding: 20px;
+}
+.description {
+    width: 50%;
+    height: 50vh;
+}
+.name {
+    height: 25%;
+}
+.price {
+    height: 25%;
+}
+.size {
+    height: 25%;
+}
+.instruction {
+    height: 25%;
+}
+.subtext {
+    display: flex;
+    align-items: center;
+    background-color: #e5dbd2;
+    width: 100%;
+    height: 10%;
+    padding: 20px;
+}
